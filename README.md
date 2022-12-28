@@ -56,6 +56,9 @@ with `registry apply` like this:
 registry apply -f $PROJECT -R
 ```
 
+Here `$PROJECT` is the name of the top-level directory containing your
+exported registry.
+
 
 
 
