@@ -1,0 +1,12 @@
+apiVersion: apigeeregistry/v1
+kind: API
+metadata:
+  name: wordnik.com
+  labels:
+    apihub-business-unit: wordnik
+    apihub-lifecycle: production
+    apihub-style: apihub-openapi
+    apihub-target-users: public
+data:
+  displayName: wordnik.com
+  description: Wordnik

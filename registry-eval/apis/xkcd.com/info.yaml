@@ -1,0 +1,7 @@
+apiVersion: apigeeregistry/v1
+kind: API
+metadata:
+  name: xkcd.com
+data:
+  displayName: xkcd.com
+  description: XKCD

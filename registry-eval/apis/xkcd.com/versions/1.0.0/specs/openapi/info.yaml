@@ -1,0 +1,8 @@
+apiVersion: apigeeregistry/v1
+kind: Spec
+metadata:
+  name: openapi
+  parent: apis/xkcd.com/versions/1.0.0
+data:
+  filename: openapi.yaml
+  mimeType: application/x.openapi+gzip;version=3

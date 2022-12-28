@@ -1,0 +1,13 @@
+apiVersion: apigeeregistry/v1
+kind: Deployment
+metadata:
+  name: prod
+  parent: apis/wordnik.com
+  labels:
+    apihub-gateway: apihub-unmanaged
+  annotations:
+    apihub-external-channel-name: developer.wordnik.com
+data:
+  displayName: prod
+  apiSpecRevision: 4.0/specs/openapi@7f9ced50
+  externalChannelURI: http://developer.wordnik.com/

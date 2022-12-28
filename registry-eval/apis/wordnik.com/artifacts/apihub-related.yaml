@@ -1,0 +1,14 @@
+apiVersion: apigeeregistry/v1
+kind: ReferenceList
+metadata:
+  name: apihub-related
+  parent: apis/wordnik.com
+data:
+  displayName: ""
+  description: Defines a list of related resources
+  references:
+    - id: github
+      displayName: GitHub
+      category: apihub-source-code
+      resource: ""
+      uri: https://github.com/wordnik

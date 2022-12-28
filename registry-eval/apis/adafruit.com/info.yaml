@@ -1,0 +1,7 @@
+apiVersion: apigeeregistry/v1
+kind: API
+metadata:
+  name: adafruit.com
+data:
+  displayName: adafruit.com
+  description: Adafruit IO REST API

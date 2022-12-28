@@ -1,0 +1,8 @@
+apiVersion: apigeeregistry/v1
+kind: Spec
+metadata:
+  name: openapi
+  parent: apis/adafruit.com/versions/2.0.0
+data:
+  filename: swagger.yaml
+  mimeType: application/x.openapi+gzip;version=2

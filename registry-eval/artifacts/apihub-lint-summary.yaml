@@ -1,0 +1,13 @@
+apiVersion: apigeeregistry/v1
+kind: ScoreCardDefinition
+metadata:
+  name: apihub-lint-summary
+data:
+  displayName: Lint Summary
+  description: Summary of lint scores
+  targetResource:
+    pattern: apis/-/versions/-/specs/-
+    filter: ""
+  scorePatterns:
+    - $resource.spec/artifacts/score-apihub-lint-errors
+    - $resource.spec/artifacts/score-apihub-lint-warnings

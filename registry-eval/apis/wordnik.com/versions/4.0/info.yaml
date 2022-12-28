@@ -1,0 +1,7 @@
+apiVersion: apigeeregistry/v1
+kind: Version
+metadata:
+  name: "4.0"
+  parent: apis/wordnik.com
+data:
+  displayName: "4.0"

@@ -1,0 +1,6 @@
+apiVersion: apigeeregistry/v1
+kind: Version
+metadata:
+  name: 1.0.0
+  parent: apis/xkcd.com
+data: {}

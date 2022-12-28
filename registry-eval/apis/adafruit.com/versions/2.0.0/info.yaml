@@ -1,0 +1,6 @@
+apiVersion: apigeeregistry/v1
+kind: Version
+metadata:
+  name: 2.0.0
+  parent: apis/adafruit.com
+data: {}
