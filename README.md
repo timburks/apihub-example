@@ -37,7 +37,7 @@ registry rpc delete-artifact \
 ```
 Now add the APIs from the `openapi-directory`.
 ```
-registry upload bulk openapi ./openapi-directory/APIs
+registry upload openapi ./openapi-directory/APIs
 ```
 
 Re-export the registry with `registry export yaml`:
