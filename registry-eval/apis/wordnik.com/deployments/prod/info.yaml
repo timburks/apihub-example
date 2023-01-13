@@ -9,5 +9,5 @@ metadata:
     apihub-external-channel-name: developer.wordnik.com
 data:
   displayName: prod
-  apiSpecRevision: 4.0/specs/openapi@7f9ced50
+  apiSpecRevision: 4.0/specs/openapi@1849b7b9
   externalChannelURI: http://developer.wordnik.com/

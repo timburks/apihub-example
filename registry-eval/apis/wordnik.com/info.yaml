@@ -7,6 +7,9 @@ metadata:
     apihub-lifecycle: production
     apihub-style: apihub-openapi
     apihub-target-users: public
+  annotations:
+    apihub-primary-contact: timburks@gmail.com
+    apihub-primary-contact-description: Just a fan
 data:
   displayName: wordnik.com
   description: Wordnik
