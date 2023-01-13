@@ -1,0 +1,32 @@
+apiVersion: apigeeregistry/v1
+kind: ScoreCard
+metadata:
+  name: scorecard-manual
+  parent: apis/wordnik.com/versions/4.0/specs/openapi
+data:
+  displayName: Subjective Scores
+  description: Human-assigned scores (subjective)
+  definitionName: projects/registry-eval/locations/global/artifacts/apihub-lint-summary
+  scores:
+    - id: score-apihub-ease-of-use
+      kind: Score
+      displayName: Ease of Use
+      description: How easy is this API to use?
+      uri: https://research.google/pubs/pub45514/
+      uriDisplayName: API Usability at Scale
+      definitionName: projects/registry-eval/locations/global/artifacts/apihub-ease-of-use
+      severity: SEVERITY_UNSPECIFIED
+      integerValue:
+        value: 10
+        minValue: 0
+        maxValue: 10
+    - id: score-apihub-likability
+      kind: Score
+      displayName: Likability
+      description: How much do people like this API?
+      definitionName: projects/registry-eval/locations/global/artifacts/apihub-likability
+      severity: SEVERITY_UNSPECIFIED
+      integerValue:
+        value: 11
+        minValue: 0
+        maxValue: 10

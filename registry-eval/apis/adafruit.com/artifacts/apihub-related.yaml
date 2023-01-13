@@ -1,0 +1,9 @@
+apiVersion: apigeeregistry/v1
+kind: ReferenceList
+metadata:
+  name: apihub-related
+  parent: apis/adafruit.com
+data:
+  displayName: ""
+  description: Defines a list of related resources
+  references: []
